@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/**reset CSS mini**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; /**Precisa Alterar para a fonte do projeto**/
+
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.logo img{
+    position: relative;
+    float: left;
+    width: 300px;
+    
+}
+
+/**Nav**/
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(107, 49, 255, 0.5);
+    padding: 20px;
+}
+
+nav .flex-icon img{
+    width: 50px;
+    height: 50px;
+
+    
+}
+.flex-icon p{
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/**Fim Nav**/
+
+/**
+Apoio
+Fonte padrão idwall: Inter (12px)
+CSS com as cores da idwall:
+--primary-color: #50f;              --gray-700: #595959;
+--secondary-color: #fff;            --gray-800: #262626;
+--success-color: #52c41a;           --gray-900: #000;
+--error-color: #f5222d;
+--warning-color: #faad14;           --green-50: #f6ffed;
+--main-background: #fafafa;         --green-100: #d9f7be;
+                                    --green-200: #b7eb8f;
+--purple-50: #f3f2ff;               --green-300: #95de64;
+--purple-100: #c8c2ff;              --green-400: #73d13d;
+--purple-200: #a491ff;              --green-500: #52c41a;
+--purple-300: #8561ff;              --green-600: #389e0d;
+--purple-400: #6b31ff;              --green-700: #237804;
+--purple-500: #50f;                 --green-800: #135200;
+--purple-600: #4100cf;              --green-900: #092b00;
+--purple-700: #30009f;
+--purple-800: #210070;              --red-50: #fff1f0;
+--purple-900: #130040;              --red-100: #ffccc7;
+                                    --red-200: #ffa39e;
+--gray-50: #fff;                    --red-300: #ff7875;
+--gray-100: #fafafa;                --red-400: #ff4d4f;
+--gray-200: #f5f5f5;                --red-500: #f5222d;
+--gray-300: #e8e8e8;                --red-600: #cf1322;
+--gray-400: #d9d9d9;                --red-700: #a8071a;
+--gray-500: #bfbfbf;                --red-800: #820014;
+--gray-600: #8c8c8c;
+
+--red-900: #5c0011;      --yellow-900: #613400
+--yellow-50: #fffbe6;    --blue-50: #f0f5ff;
+--yellow-100: #fff1b8;   --blue-100: #d6e4ff;
+--yellow-200: #ffe58f;   --blue-200: #adc6ff;
+--yellow-300: #ffd666;   --blue-300: #85a5ff;
+--yellow-400: #ffc53d;   --blue-400: #597ef7;
+--yellow-500: #faad14;   --blue-500: #2f54eb;
+--yellow-600: #d48806;   --blue-600: #1d39c4;
+--yellow-700: #ad6800    --blue-700: #10239e;
+--yellow-800: #874d00;   --blue-800: #061178;
+--blue-900: #030852;
+
+
+
+
+
+
+**/
