@@ -1,82 +1,110 @@
-
 /**reset CSS mini**/
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif; /**Precisa Alterar para a fonte do projeto**/
-
+    box-sizing: border-box;
 }
 
-a{
+main {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
     text-decoration: none;
 }
 
-ul,ol{
-    list-style: none;
-}
-
-/**Navegação**/
+/* nav */
 
 nav{
-    background-color: rgb(152, 228, 66);
+    background-color: #6b31ff;
+    font-family: 'Inter', sans-serif;
+    float: left;
+    width: 200px;
 }
 
-nav.flex-container{
-    background-color: rgba(255, 176, 139, 0.5);
-    display: flex;
-    margin-top: 10px;
-    padding: 2px 10px;
-    flex-direction: column;
-    justify-content: flex-end;
-    
+.logo{
+    height: 3em;
+    width: 5em;
+    padding:0.3em;
+    background-color: #f3f2ff;
+    border-radius: 2px;
 }
 
+li{
+    font-size: 1.3em;
+    width: fit-content;
+}
 
-nav.flex-container .flex-item{
-    background-color: rgba(70, 255, 85, 0.5);
-    justify-content: center;
-    padding: 5px 5px;
+ul{
+    width: fit-content;
+}
 
+.navbar .navbar-toggler{
+    border-color: #f3f2ff;
+}
+
+#sideBar{
+    height: 100vh;
+}
+
+@media (min-width: 1200px){
+    nav{
+        width: 100%;
     }
-/**Fim Navegação**/
+    
+    .nav-item{
+        border-left: 2px solid #8561ff;
+    }
+    
+    .protoc{
+        border-left: 0px;
+    }
 
+    .navbar,.full{
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
 
+    #sideBar {
+        height: 4em;
+    }
 
-
-
+}
 
 /**Topo**/
-header{
+header {
     background-color: rgb(218, 67, 67);
 }
+
 /**Fim Topo**/
 
 
 /**Principal**/
-main{
+main {
     background-color: blueviolet;
 }
+
 /**Fim Principal**/
 
 
 /**lateral**/
-aside{
+aside {
     background-color: aquamarine;
 }
 
-aside.container_lateral{
+aside.container_lateral {
     display: flex;
     flex-direction: row;
 }
+
 /**Fim Lateral**/
 
 
 /**Rodapé**/
 
-footer{
+footer {
     background-color: orangered;
 }
+
 /**Fim Rodapé**/
