@@ -1,82 +1,22 @@
-
-/**reset CSS mini**/
-*{
+body{
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif; /**Precisa Alterar para a fonte do projeto**/
-
-}
-
-a{
-    text-decoration: none;
-}
-
-ul,ol{
-    list-style: none;
-}
-
-/**Navegação**/
-
-nav{
-    background-color: rgb(152, 228, 66);
-}
-
-nav.flex-container{
-    background-color: rgba(255, 176, 139, 0.5);
-    display: flex;
-    margin-top: 10px;
-    padding: 2px 10px;
-    flex-direction: column;
-    justify-content: flex-end;
     
 }
 
 
-nav.flex-container .flex-item{
-    background-color: rgba(70, 255, 85, 0.5);
-    justify-content: center;
-    padding: 5px 5px;
-
-    }
-/**Fim Navegação**/
-
-
-
-
-
-
-/**Topo**/
-header{
-    background-color: rgb(218, 67, 67);
-}
-/**Fim Topo**/
-
-
-/**Principal**/
-main{
-    background-color: blueviolet;
-}
-/**Fim Principal**/
-
-
-/**lateral**/
-aside{
-    background-color: aquamarine;
+.navbar{
+    background-color: #c8c2ff;
 }
 
-aside.container_lateral{
-    display: flex;
-    flex-direction: row;
+.body{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    text-align: center;
 }
-/**Fim Lateral**/
 
-
-/**Rodapé**/
-
-footer{
-    background-color: orangered;
+.btn{
+    color:#080808;
+    background-color: #a491ff;
 }
-/**Fim Rodapé**/
