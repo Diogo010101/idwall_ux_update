@@ -18,48 +18,102 @@ a{
 ul,ol{
     list-style: none;
 }
-
-/**Navegação**/
-
-nav{
-    background-color: rgb(152, 228, 66);
-}
-
-nav.flex-container{
-    background-color: rgba(255, 176, 139, 0.5);
-    display: flex;
-    margin-top: 10px;
-    padding: 2px 10px;
-    flex-direction: column;
-    justify-content: flex-end;
-    
-}
-
-
-nav.flex-container .flex-item{
-    background-color: rgba(70, 255, 85, 0.5);
-    justify-content: center;
-    padding: 5px 5px;
-
-    }
-/**Fim Navegação**/
-
-
-
-
-
-
-/**Topo**/
-header{
-    background-color: rgb(218, 67, 67);
-}
-/**Fim Topo**/
+/**Fim reset CSS mini**/
 
 
 /**Principal**/
 main{
-    background-color: blueviolet;
 }
+
+/**Fomulário**/
+
+form.flex-form{
+    display: inline-flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 10em;
+    padding: 10px 10px;
+    
+}
+
+.flex-input{
+    margin-bottom: 20px;
+    color: rgb(107, 49, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 50px 5px 0px;
+
+}
+
+.flex-input input{
+    border-radius: 5px;
+    padding: 5px 0px;
+    text-align: center;
+    
+    
+}
+.flex-input label{
+    color: rgb(107, 49, 255);
+    font-weight: bolder;
+    font-size: 1.2em;  
+}
+
+.flex-botao{
+align-self: center;
+}
+
+.flex-botao input{
+    background-color: #50f;
+    border: none;
+    padding: 8px 20px;
+    color: #fafafafa;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black; 
+}
+
+
+#id{
+    width: 7em;
+}
+
+/**Fim Formulário**/
+
+
+/**Card Informaçoes**/
+
+.flex-id{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 5px 5px;
+    text-align: center;
+    margin-left: 130px;
+}
+
+.flex-item-id{
+    border: 1px solid black;
+    padding: 80px 150px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+
+.flex-foto{
+    background-color: gray;
+    width: 85px;
+    height: 100px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    position: relative;
+    left: -80px;
+    float: left;
+   
+
+}
+
+/**Fim Card Informações**/
 /**Fim Principal**/
 
 
@@ -81,3 +135,56 @@ footer{
     background-color: orangered;
 }
 /**Fim Rodapé**/
+
+
+
+/**Fim Nav**/
+
+/**
+Apoio
+Fonte padrão idwall: Inter (12px)
+CSS com as cores da idwall:
+--primary-color: #50f;              --gray-700: #595959;
+--secondary-color: #fff;            --gray-800: #262626;
+--success-color: #52c41a;           --gray-900: #000;
+--error-color: #f5222d;
+--warning-color: #faad14;           --green-50: #f6ffed;
+--main-background: #fafafa;         --green-100: #d9f7be;
+                                    --green-200: #b7eb8f;
+--purple-50: #f3f2ff;               --green-300: #95de64;
+--purple-100: #c8c2ff;              --green-400: #73d13d;
+--purple-200: #a491ff;              --green-500: #52c41a;
+--purple-300: #8561ff;              --green-600: #389e0d;
+--purple-400: #6b31ff;              --green-700: #237804;
+--purple-500: #50f;                 --green-800: #135200;
+--purple-600: #4100cf;              --green-900: #092b00;
+--purple-700: #30009f;
+--purple-800: #210070;              --red-50: #fff1f0;
+--purple-900: #130040;              --red-100: #ffccc7;
+                                    --red-200: #ffa39e;
+--gray-50: #fff;                    --red-300: #ff7875;
+--gray-100: #fafafa;                --red-400: #ff4d4f;
+--gray-200: #f5f5f5;                --red-500: #f5222d;
+--gray-300: #e8e8e8;                --red-600: #cf1322;
+--gray-400: #d9d9d9;                --red-700: #a8071a;
+--gray-500: #bfbfbf;                --red-800: #820014;
+--gray-600: #8c8c8c;
+
+--red-900: #5c0011;      --yellow-900: #613400
+--yellow-50: #fffbe6;    --blue-50: #f0f5ff;
+--yellow-100: #fff1b8;   --blue-100: #d6e4ff;
+--yellow-200: #ffe58f;   --blue-200: #adc6ff;
+--yellow-300: #ffd666;   --blue-300: #85a5ff;
+--yellow-400: #ffc53d;   --blue-400: #597ef7;
+--yellow-500: #faad14;   --blue-500: #2f54eb;
+--yellow-600: #d48806;   --blue-600: #1d39c4;
+--yellow-700: #ad6800    --blue-700: #10239e;
+--yellow-800: #874d00;   --blue-800: #061178;
+--blue-900: #030852;
+
+
+
+
+
+
+**/

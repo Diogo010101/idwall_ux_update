@@ -5,34 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylus.css">
+    <link rel="stylesheet" href="css/tela2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <script href="js/eventos.js"></script>
+
     <title>Idwall UX 2.0</title>
 </head>
 
 <body>
-    <nav class="flex-container">
-        <h1 class="flex-item ">Menu de Navegação</h1>
-        <ol class="flex-item">
-            <li class="flex-item">Função 01</li>
-            <li class="flex-item">Função 01</li>
-            <li class="flex-item">Função 01</li>
-            <li class="flex-item">Função 01</li>
-            <li class="flex-item">Função 01</li>
-            <li class="flex-item">Função 01</li>
-        </ol>
-    </nav>
 
-    <header>
-        <h1>Cabeçalho aqui</h1>
+   
+<!--Header-->
+<!--Logo-->
+    <header class="contaienr">
+        <figure class="flex-item logo">
+            <img src="img/empreendedores-endeavor-idwall-logo.png" alt="Logo idwall">
+        </figure>
+<!--Fim Logo-->
+
+
+<!--Menu Navegação-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav container-fluid">
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_atributos.png" alt="Atributos">
+                                <p>Atributos</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_documentos.png" alt="Documentos">
+                                <p>Documentos</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_fontes.png" alt="Fontes">
+                                <p>Fontes</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_matrizes.png" alt="Matrizes">
+                                <p>Matrizes</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_monitor.png" alt="Monitor">
+                                <p>Monitor</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icone_organização.png" alt="Organização">
+                                <p>Organização</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_protocolo.png" alt="Protocolos">
+                                <p>Protocolos</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_regras.png" alt="Regras">
+                                <p>Regras</p>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_user.png" alt="Usuários">
+                                <p>Usuários</p>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="nav-link"><img src="icon/icon_sair.png" alt="Sair">
+                                <p>Sair</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!--FIM Menu Navegação-->
     </header>
+<!--Fim Header-->
 
+<!--main-->
     <main>
         <section>
-            <h1>Seção Principal</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam mollitia consectetur esse reprehenderit iusto, quaerat ea id alias aliquam! Libero, perferendis veritatis doloremque sunt ea iste dolorum dolor itaque quisquam voluptas dolorem facere cupiditate consectetur illum, eaque ut ad, porro omnis minima animi facilis consequatur mollitia cum? Exercitationem, aliquam ipsam!</p>
+            <!--Formulário-->
+           <form action="" class="flex-container flex-form">
+            <div class="flex-item flex-input"><label for="pesquisar_usuarios">Pesquisar Usuários</label></div>
+            
+            <div class="flex-item flex-input">Usuário: <input type="text" id="usuario"></div>
+            <div class="flex-item flex-input">CPF: <input type="number" id="cpf"></div>
+            
+            <div class="flex-item flex-input">Email: <input type="text" id="email"></div>
+            
+            <div class="flex-item flex-input">#id: <input type="number" name="id" id="id"></div>
+            
+            <div class="flex-item flex-input"><input type="checkbox" name="" id="checkbox"> Mostrar Desativados</div>
+            
+            <div class="flex-item flex-input flex-botao"><input type="submit" id="enviar" value="Pesquisar"></div>
+            
+           </form>
+            <!--Fim Formulário-->
         </section>
-        
+
+        <!--Card de informações-->
+        <section class="flex-container flex-id">
+            <h1>Resultado da pesquisa</h1>
+            <div class="flex-item flex-item-id">
+                <div class="flex-item flex-foto"><img src="" alt=""></div>
+                <span>#152</span>
+                <span>Diogo Jose da Silva</span>
+                <div>Protocolo: <input type="number" placeholder="1586655" disabled></div>
+                <div>Email: <input type="mail" placeholder="user@email.com" disabled></div>
+                <div>Usuários: <input type="number" placeholder="5856" disabled></div>
+        </section>
+        <!--Fim Card de informações-->
     </main>
+<!--FIM main-->
+
     <aside>
         <container class="flex-container container-lateral">
             <h1>lateral aqui</h1>
@@ -44,5 +150,6 @@
     <footer>
         <h1>Rodapé aqui</h1>
     </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
