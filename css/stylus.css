@@ -8,7 +8,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif; /**Precisa Alterar para a fonte do projeto**/
-
+    max-width: auto;
 }
 
 a{
@@ -23,6 +23,15 @@ ul,ol{
 
 /**Principal**/
 main{
+    
+    display: inline-flex;
+    padding: 0 50px;
+    margin: 5px;
+}
+
+section.flex-container{
+    display: flex;
+    flex-direction: column;
 }
 
 /**Fomulário**/
@@ -86,14 +95,15 @@ align-self: center;
     display: inline-flex;
     flex-direction: column;
     background-color: aqua;
-    padding: 5px 5px;
     text-align: center;
-    margin-left: 130px;
+    justify-content: space-between;
+
+ 
 }
 
 .flex-item-id{
     border: 1px solid black;
-    padding: 80px 150px;
+   
     border-radius: 5px;
     background-color: white;
 
@@ -106,9 +116,7 @@ align-self: center;
     height: 100px;
     padding: 10px 10px;
     border: 1px solid black;
-    position: relative;
-    left: -80px;
-    float: left;
+    
    
 
 }
@@ -118,14 +126,58 @@ align-self: center;
 
 
 /**lateral**/
-aside{
-    background-color: aquamarine;
+
+aside.flex-container{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    float: right;
+    margin: 5px;
+    
+    
 }
 
-aside.container_lateral{
-    display: flex;
-    flex-direction: row;
+aside h1{
+    color: #50f;
+
 }
+.container-lateral{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 50px;
+    background-color: aqua;
+
+    
+
+}
+
+.container-lateral h1{
+    text-align: left;
+}
+.table{
+    background-color: rgba(107, 49, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(107, 49, 255);
+
+
+
+
+
+    
+}
+
+table{
+    
+    
+    
+    
+
+    
+
+}
+
+
 /**Fim Lateral**/
 
 

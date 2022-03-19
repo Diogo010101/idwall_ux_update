@@ -103,8 +103,8 @@
 <!--Fim Header-->
 
 <!--main-->
-    <main>
-        <section>
+    <main class="flex-container">
+        <section class="flex-container">
             <!--Formulário-->
            <form action="" class="flex-container flex-form">
             <div class="flex-item flex-input"><label for="pesquisar_usuarios">Pesquisar Usuários</label></div>
@@ -122,34 +122,131 @@
             
            </form>
             <!--Fim Formulário-->
+            <section class="flex-container flex-id">
+                <h1 class="flex-item">Resultado da pesquisa</h1>
+                <div class="flex-item flex-item-id">
+
+                    <img src="icon/icon_user.png" alt="" width="60px" height="60px">
+                    <span class="flex-item">#152</span>
+                    <span class="flex-item">Diogo Jose da Silva</span>
+                    <div class="flex-item">Protocolo: <input type="number" placeholder="1586655" disabled></div>
+                    <div class="flex-item">Email: <input type="mail" placeholder="user@email.com" disabled></div>
+                    <div class="flex-item">Usuários: <input type="number" placeholder="5856" disabled></div>
+            </section>
         </section>
 
         <!--Card de informações-->
-        <section class="flex-container flex-id">
-            <h1>Resultado da pesquisa</h1>
-            <div class="flex-item flex-item-id">
-                <div class="flex-item flex-foto"><img src="" alt=""></div>
-                <span>#152</span>
-                <span>Diogo Jose da Silva</span>
-                <div>Protocolo: <input type="number" placeholder="1586655" disabled></div>
-                <div>Email: <input type="mail" placeholder="user@email.com" disabled></div>
-                <div>Usuários: <input type="number" placeholder="5856" disabled></div>
-        </section>
+        
         <!--Fim Card de informações-->
     </main>
 <!--FIM main-->
 
-    <aside>
-        <container class="flex-container container-lateral">
-            <h1>lateral aqui</h1>
+    <aside class="flex-container">
+        <h1 class="flex-item">Últimas Buscas</h1>
+ 
+            <table class="table table-bordered border-dark ">
+                <thead class="flex-item">
+                    <tr>
+                        <th scope="col">Usuário</th>
+                        <th scope="col">Protocolo</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Acesso</th>
+                        <th scope="col">Logar</th>
+                    </tr>
+                </thead>
+            
+                <tbody class="flex-item">
+                    <tr>
+                        <th scope="row">5151</th>
+                        <td>1</td>
+                        <td>user@gmail.com</td>
+                        <td>SIM</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                    
+                    </tr>
+                    <tr> 
+                        <th scope="row">24</th>
+                        <td>25</td>
+                        <td>user@gmail.com</td>
+                        <td>SIM</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+             
+                    </tr>
+                    <tr>
+                        <th scope="row">345</th>
+                        <td>3</td>
+                        <td>user@gmail.com</td>
+                        <td>NÃO</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                      
+                    </tr>
+                    <tr>
+                        <th scope="row">5151</th>
+                        <td>1</td>
+                        <td>user@gmail.com</td>
+                        <td>SIM</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">24</th>
+                        <td>25</td>
+                        <td>user@gmail.com</td>
+                        <td>SIM</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">345</th>
+                        <td>3</td>
+                        <td>user@gmail.com</td>
+                        <td>NÃO</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">5151</th>
+                        <td>1</td>
+                        <td>user@gmail.com</td>
+                        <td>SIM</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">24</th>
+                        <td>25</td>
+                        <td>user@gmail.com</td>
+                        <td>SIM</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">345</th>
+                        <td>3</td>
+                        <td>user@gmail.com</td>
+                        <td>NÃO</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+                    
+                    </tr>
+                    <tr>
+                        <th scope="row">5151</th>
+                        <td>1</td>
+                        <td>user@gmail.com</td>
+                        <td>SIM</td>
+                        <td><input type="button" id="logar" value="Logar"></td>
+
+                    </tr>
+
+
+
+                </tbody>
+             
+            </table>
+        </div>
         </container>
     </aside>
 
-    
 
-    <footer>
-        <h1>Rodapé aqui</h1>
-    </footer>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
