@@ -36,13 +36,15 @@ ul,ol{
 main{
     
     display: inline-flex;
+ 
     padding: 0 50px;
     margin: 5px;
+
 }
 
 section.flex-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -55,7 +57,6 @@ form.flex-form{
     display: inline-flex;
     flex-direction: column;
     margin-top: 30px;
-    
     padding: 10px 10px;
     
 }
@@ -106,28 +107,115 @@ align-self: center;
 
 
 /**Card Informaçoes**/
+.flex-id{
+    display: flex;
 
-section.flex-id{
-    display: inline;
-    flex-direction: column;
-    text-align: center;
-    justify-content: flex-end;
-    height: 350px;
-    padding: 0 10px;;
-    margin-top: 40px;
- 
+
+
+
 }
 
-.flex-id input{
-    margin: 10px 0px;
+.flex-id h1{
+    color: #50f;
+}
 
+.flex-item-id{
+    border: 2px solid #2f54eb;
+    width: 30em;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.flex-id .flex-id_box{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.flex-id figure{
+    text-align: center;
+    
+    float: left;
+    margin-top: 1em;
+    margin-left: 15px;
+    margin-right: 1em;
+    padding: 10px 2px;
+}
+
+
+.flex-id img{
+    box-shadow: 2px 2px 5px black;
+    border: 1px solid #2f54eb;
+    padding: 2px;
+   
+}
+.status_ferramentas{
+    float: right;
+    margin-right: 3px;
+  
+}
+
+.flex-id .flex_id_dados{
+    margin-bottom: 1em;
     
 }
 
+.margem_top_dados{
+    margin-top: 4em;
+}
 
+.logar_botao{
+    float: right;
+    margin-right: 1em;
 
+}
 
+.btn_logar{
+    background-color: #2f54eb;
+    color: #fafafafa;
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px blue;
+   
+}
 
+.bt_flex{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2px 0px;
+    
+}
+
+.adicionar_botao{
+    margin-top: 5px;
+}
+
+.btn_adicionar{
+    background-color: #2f54eb;
+    color: #fafafafa;
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px blue;
+}
+
+.excluir_botao{
+    margin-top: 5px;
+    float: right;
+}
+
+.btn_excluir{
+    background-color: #f5222d;
+    color: #fafafafa;
+    padding: 2px 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(255, 0, 0);
+}
 
 /**Fim Card Informações**/
 /**Fim Principal**/
@@ -137,47 +225,43 @@ section.flex-id{
 
 aside.flex-container{
     display: inline-flex;
-    flex-direction: column;
-    padding: 10px;
+    flex-direction: row;
     flex-wrap: wrap;
     float: right;
+    padding: 0 5px 0 5px;
     margin: 5px;
+
+    justify-items: flex-start;
+
     
 }
 
 aside h1{
     color: #50f;
-
 }
-.container-lateral{
-    display: inline-flex;
+
+aside section.flex-container{
+    display: flex;
     flex-direction: row;
-    margin-top: 50px;
-    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+
+
+table.flex-item{
+    justify-self: left;
+    padding: 50px;
 }
 
 .container-lateral h1{
     text-align: left;
 }
 .table{
-    background-color: #f3f2ff;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #a491ff;
-    margin-top: 30px;
-
-}
-
-
+    background-color: rgba(107, 49, 255, 0.5);
+    box-shadow: 2px 2px 5px rgb(107, 49, 255); 
+}    
 /**Fim Lateral**/
 
-/**Rodapé**/
-
-footer{
-    background-color: orangered;
-}
-/**Fim Rodapé**/
-
-/**Fim Nav**/
 
 /**
 Apoio
