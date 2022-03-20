@@ -11,8 +11,19 @@ body{
     max-width: auto;
 }
 
+.glyphicon{f
+    ont-size:25px;
+    color: #6b31ff;
+}
+
 a{
     text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #210070;
+    outline: #0f0449;
 }
 
 ul,ol{
@@ -36,6 +47,9 @@ section.flex-container{
 
 /**Fomulário**/
 
+.form-control{
+    margin-top: 30px;
+}
 form.flex-form{
     display: inline-flex;
     flex-direction: column;
@@ -51,6 +65,7 @@ form.flex-form{
     font-weight: bold;
     text-align: center;
     padding: 5px 50px 5px 0px;
+    margin-top: 30px;
 
 }
 
@@ -135,7 +150,6 @@ aside.flex-container{
     float: right;
     margin: 5px;
     
-    
 }
 
 aside h1{
@@ -147,39 +161,21 @@ aside h1{
     flex-direction: row;
     margin-top: 50px;
     background-color: aqua;
-
-    
-
 }
 
 .container-lateral h1{
     text-align: left;
 }
 .table{
-    background-color: rgba(107, 49, 255, 0.5);
+    background-color: #f3f2ff;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(107, 49, 255);
-
-
-
-
-
-    
-}
-
-table{
-    
-    
-    
-    
-
-    
+    box-shadow: 2px 2px 5px #a491ff;
+    margin-top: 30px;
 
 }
 
 
 /**Fim Lateral**/
-
 
 /**Rodapé**/
 
@@ -187,8 +183,6 @@ footer{
     background-color: orangered;
 }
 /**Fim Rodapé**/
-
-
 
 /**Fim Nav**/
 
@@ -233,10 +227,5 @@ CSS com as cores da idwall:
 --yellow-700: #ad6800    --blue-700: #10239e;
 --yellow-800: #874d00;   --blue-800: #061178;
 --blue-900: #030852;
-
-
-
-
-
 
 **/

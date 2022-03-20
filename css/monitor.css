@@ -1,0 +1,29 @@
+.navbar {
+    background-color:#a491ff;
+    width: auto;
+}
+
+.body{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn{
+    color:#080808;
+    background-color: #a491ff;
+}
+
+#protocolo{
+    margin-top: 20px;
+}
+
+p{
+    padding: 50px 50px 50px;
+    column-count: 2;
+}
+
+h1{
+    padding-top: 10px;
+}
