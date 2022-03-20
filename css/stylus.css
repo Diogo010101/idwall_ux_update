@@ -31,7 +31,8 @@ main{
 
 section.flex-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /**Fomulário**/
@@ -40,7 +41,7 @@ form.flex-form{
     display: inline-flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: 10em;
+    
     padding: 10px 10px;
     
 }
@@ -91,35 +92,27 @@ align-self: center;
 
 /**Card Informaçoes**/
 
-.flex-id{
-    display: inline-flex;
+section.flex-id{
+    display: inline;
     flex-direction: column;
-    background-color: aqua;
     text-align: center;
-    justify-content: space-between;
-
+    justify-content: flex-end;
+    height: 350px;
+    padding: 0 10px;;
+    margin-top: 40px;
  
 }
 
-.flex-item-id{
-    border: 1px solid black;
-   
-    border-radius: 5px;
-    background-color: white;
+.flex-id input{
+    margin: 10px 0px;
 
-}
-
-
-.flex-foto{
-    background-color: gray;
-    width: 85px;
-    height: 100px;
-    padding: 10px 10px;
-    border: 1px solid black;
     
-   
-
 }
+
+
+
+
+
 
 /**Fim Card Informações**/
 /**Fim Principal**/
