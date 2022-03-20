@@ -32,9 +32,7 @@ ul,ol{
 
 /**Menu de navegação**/
 .navbar{
-    background-color: rgba(107, 49, 255, 0.5);
-    padding-top: 200px;
-    margin-top: -16px;
+
     
 }
 
@@ -42,8 +40,10 @@ ul,ol{
     display: flex;
     text-align: center;
     justify-content: space-around;
- 
-    
+    background-color: rgba(107, 49, 255, 0.5);
+    padding: 1em 0 0 0;
+    margin-top: -1.5em;
+
 }
 
 nav .nav-link img{
