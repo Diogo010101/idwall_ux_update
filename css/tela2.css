@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /**reset CSS mini**/
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
 }
+
+
 body{
     font-family: Arial, Helvetica, sans-serif; /**Precisa Alterar para a fonte do projeto**/
 
@@ -52,7 +56,19 @@ nav .nav-link img{
     color: white;
     font-weight: bold;
     font-size: 12px;
+    text-decoration: none;
 }
+
+
+.nav-link p:hover{
+   color: #210070;
+    outline: #0f0449;
+}
+
+.nav-link a{
+    text-decoration: none;
+}
+
 
 /**FIM Menu de navegação**/
 
