@@ -35,7 +35,6 @@ ul,ol{
 
 /**Principal**/
 main{
-    
     display: inline-flex;
     padding: 0 50px;
     margin: 5px;
@@ -230,8 +229,7 @@ aside.flex-container{
     float: right;
     padding: 0 5px 0 5px;
     margin: 5px;
-
-    justify-items: flex-start;
+    justify-items: flex-end;
 
     
 }
