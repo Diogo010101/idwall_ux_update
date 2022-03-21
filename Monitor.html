@@ -12,12 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Arquivo em CSS -->
   
     <link rel="stylesheet" href="./css/stylus.css">
     <link rel="stylesheet" href="./css/monitor.css">
+    <link rel="stylesheet" href="css/tela2.css">
 
     <!-- Arquivo em JS -->
     <script href="js/monitor.js"></script>
@@ -27,92 +27,111 @@
 </head>
 <body>
 
+<!--Header-->
+<header class="contaienr">
   <!--Menu Navegação-->
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-              <a class="navbar-brand" href="#"></a>
-                <img src="./Imagens/logo.png" width="100" height="30" alt="logo">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <!--Logo-->
+    <figure class="flex-item logo">
+      <img src="img/empreendedores-endeavor-idwall-logo.png" alt="Logo idwall">
+    </figure>
+    <!--Fim Logo-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav container-fluid">
 
-              <button class="navbar-toggler pull-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav container-fluid">
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-send"></span>
-                            <a href="atributos.html">Atributos</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-file"></span>
-                            <a href="documentos.html">Documentos</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-barcode"></span>
-                            <a href="Fontes.html">Fontes</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-play"></span>
-                            <a href="Matrizes.html">Matrizes</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-stats"></span>
-                            <a href="Monitor.html">Monitor</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-inbox"></span>
-                            <a href="Organização.html">Organização</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-tags"></span>
-                            <a href="Protocolos.html">Protocolos</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-check"></span>
-                            <a href="Regras.html">Regras</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">  
-                            <span class="glyphicon glyphicon-user"></span>
-                            <a href="index.html">Usuários</a>
-                          </div>
-                      </li>
-  
-                      <li class="nav-item">
-                          <div class="nav-link">
-                            <span class="glyphicon glyphicon-log-out"></span>
-                            <a href="sair.html">Sair</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-        </nav>
-    <!--FIM Menu Navegação-->
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_atributos.png" alt="Atributos">
+              <a href="atributos.html">
+                <p>Atributos</p>
+              </a>
+            </div>
+
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_documentos.png" alt="Documentos">
+              <a href="documentos.html">
+                <p>Documentos</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_fontes.png" alt="Fontes">
+              <a href="Fontes.html">
+                <p>Fontes</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_matrizes.png" alt="Matrizes">
+              <a href="Matrizes.html">
+                <p>Matrizes</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_monitor.png" alt="Monitor">
+              <a href="Monitor.html">
+                <p>Monitor</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icone_organização.png" alt="Organização">
+              <a href="Organização.html">
+                <p>Organização</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_protocolo.png" alt="Protocolos">
+              <a href="Protocolos.html">
+                <p>Protocolos</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_regras.png" alt="Regras">
+              <a href="Regras.html">
+                <p>Regras</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_user.png" alt="Usuários">
+              <a href="index.html">
+                <p>Usuários</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <div class="nav-link"><img src="icon/icon_sair.png" alt="Sair">
+              <a href="sair.html">
+                <p>Sair</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--FIM Menu Navegação-->
+</header>
+<!--Fim Header-->
     
     <!-- Tabelas -->
       <div class="body"> 
@@ -206,7 +225,7 @@
       </div>
     <!-- Fim das Tabelas -->
 
-    <script href="js/eventos.js"></script>
+   
     <script src="./js/monitor.js"></script>
     <script src="js/bootstrap.min.js"></script>
 

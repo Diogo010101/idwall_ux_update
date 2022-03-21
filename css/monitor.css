@@ -8,10 +8,6 @@ a{
 
 
 
-.navbar {
-    background-color:#a491ff;
-    width: auto;
-}
 
 .body{
     margin-right: 150px;
@@ -27,11 +23,6 @@ a{
 
 #protocolo{
     margin-top: 20px;
-}
-
-p{
-    padding: 50px 50px 50px;
-    column-count: 2;
 }
 
 h1{

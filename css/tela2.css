@@ -24,25 +24,26 @@ ul,ol{
 }
 
 .logo img{
-    position: relative;
-    float: left;
-    width: 300px;
+
+    width: 20em;
     
 }
 
 /**Menu de navegação**/
-.navbar{
-
-    
+header{
+    background-color: rgba(107, 49, 255, 0.5);
 }
 
+
 .navbar-nav{
+
     display: flex;
-    text-align: center;
+    text-align: left;
     justify-content: space-around;
-    background-color: rgba(107, 49, 255, 0.5);
-    padding: 1em 0 0 0;
-    margin-top: -1.5em;
+    
+ 
+
+ 
 
 }
 
