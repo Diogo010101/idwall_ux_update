@@ -16,7 +16,6 @@ body{
     color: #6b31ff;
 }
 
-
 a{
     text-decoration: none;
     color: white;
@@ -27,6 +26,10 @@ a:hover{
     outline: #0f0449;
 }
 
+list-group{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 ul,ol{
     list-style: none;
 }
@@ -99,6 +102,13 @@ align-self: center;
     box-shadow: 2px 2px 5px black; 
 }
 
+.card {
+        margin: 0 auto; 
+        float: none; 
+        margin-bottom: 10px; 
+        margin-top: 30px;
+        text-align: justify;
+}        
 
 #id{
     width: 7em;

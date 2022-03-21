@@ -29,11 +29,11 @@ a{
     margin-top: 20px;
 }
 
-p{
-    padding: 50px 50px 50px;
-    column-count: 2;
-}
-
 h1{
     padding-top: 10px;
+    
+}
+
+th{
+    text-align: center;
 }
