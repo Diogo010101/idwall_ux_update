@@ -37,3 +37,26 @@ h1{
 th{
     text-align: center;
 }
+
+#div1 {
+    display: flex;
+    float:left;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+ 
+}
+
+#div2{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+
+table {
+    border: 1px solid #000;
+    text-align: center;
+}
+ 
+

@@ -10,9 +10,11 @@ body{
     font-family: Arial, Helvetica, sans-serif; /**Precisa Alterar para a fonte do projeto**/
     max-width: auto;
 }
-
+h1{
+    font-size: 30px;;
+}
 .glyphicon{
-    font-size:25px;
+    font-size:15px;
     color: #6b31ff;
 }
 
@@ -22,13 +24,13 @@ a{
 }
 
 a:hover{
-    color: #210070;
+    color: #7f798d;
     outline: #0f0449;
 }
 
 list-group{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 ul,ol{
     list-style: none;
@@ -38,12 +40,9 @@ ul,ol{
 
 /**Principal**/
 main{
-    
-    display: inline-flex;
- 
-    padding: 0 50px;
-    margin: 5px;
-
+    display: inline-block;
+    padding: 0 30px;
+    margin: 1px;
 }
 
 section.flex-container{
@@ -55,13 +54,14 @@ section.flex-container{
 /**Fomulário**/
 
 .form-control{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 form.flex-form{
     display: inline-flex;
     flex-direction: column;
     margin-top: 30px;
     padding: 10px 10px;
+    margin-right: 200px;
     
 }
 
@@ -71,7 +71,7 @@ form.flex-form{
     font-weight: bold;
     text-align: center;
     padding: 5px 50px 5px 0px;
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 
@@ -83,7 +83,6 @@ form.flex-form{
     
 }
 .flex-input label{
-    color: rgb(107, 49, 255);
     font-weight: bolder;
     font-size: 1.2em;  
 }
@@ -127,11 +126,11 @@ align-self: center;
 }
 
 .flex-id h1{
-    color: #50f;
+    color: black;
 }
 
 .flex-item-id{
-    border: 2px solid #2f54eb;
+    border: 2px solid rgb(241, 238, 238);
     width: 30em;
     border-radius: 5px;
     background-color: white;
@@ -148,7 +147,7 @@ align-self: center;
     text-align: center;
     
     float: left;
-    margin-top: 1em;
+  
     margin-left: 15px;
     margin-right: 1em;
     padding: 10px 2px;
@@ -156,8 +155,7 @@ align-self: center;
 
 
 .flex-id img{
-    box-shadow: 2px 2px 5px black;
-    border: 1px solid #2f54eb;
+    box-shadow: 2px 2px 5px #000;
     padding: 2px;
    
 }
@@ -188,7 +186,7 @@ align-self: center;
     padding: 2px 20px;
     border-radius: 5px;
     border: none;
-    box-shadow: 2px 2px 5px blue;
+    
    
 }
 
@@ -205,28 +203,6 @@ align-self: center;
     margin-top: 5px;
 }
 
-.btn_adicionar{
-    background-color: #2f54eb;
-    color: #fafafafa;
-    padding: 2px 20px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 2px 2px 5px blue;
-}
-
-.excluir_botao{
-    margin-top: 5px;
-    float: right;
-}
-
-.btn_excluir{
-    background-color: #f5222d;
-    color: #fafafafa;
-    padding: 2px 20px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 2px 2px 5px rgb(255, 0, 0);
-}
 
 /**Fim Card Informações**/
 /**Fim Principal**/
@@ -240,7 +216,7 @@ aside.flex-container{
     flex-wrap: wrap;
     float: right;
     padding: 0 5px 0 5px;
-    margin: 5px;
+    margin: 10px;
 
     justify-items: flex-start;
 
@@ -248,13 +224,14 @@ aside.flex-container{
 }
 
 aside h1{
-    color: #50f;
+    color: black;
+    font-size: 30px;
 }
 
 aside section.flex-container{
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -264,12 +241,10 @@ table.flex-item{
     padding: 50px;
 }
 
-.container-lateral h1{
-    text-align: left;
-}
+
 .table{
-    background-color: rgba(107, 49, 255, 0.5);
-    box-shadow: 2px 2px 5px rgb(107, 49, 255); 
+    background-color: #c8c2ff;
+    box-shadow: 2px 2px 5px  #a491ff; 
 }    
 /**Fim Lateral**/
 
