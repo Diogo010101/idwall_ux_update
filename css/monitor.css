@@ -6,8 +6,6 @@ a{
     text-decoration: none;
 }
 
-
-
 .navbar {
     background-color:#a491ff;
     width: auto;
@@ -40,12 +38,12 @@ th{
 
 #div1 {
     display: flex;
-    float:left;
+    float: left;
     display: inline-block;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 100px;
- 
+
 }
 
 #div2{
